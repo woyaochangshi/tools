@@ -35,7 +35,7 @@ public final class P {
 
     public static void each(int end, int start, int step, CallBack<Integer> callBack) {
         for (int i = start; i < end; i += step) {
-            callBack.call(Integer.valueOf(i));
+            callBack.call(i);
         }
     }
 
